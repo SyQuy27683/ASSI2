@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <title>NEWS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  .card {
+    height: 350px;
+    width: 100%;
+ 
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .more{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+  }
+  .more span{
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #92d1ff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/chelsea-fc-2.svg" alt="" width="95" height="75" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Men team.html">MEN'S TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contract.html">CONTACT</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <i class='far fa-user-circle' style='font-size:36px'></i><a class="nav-link ms-3" data-bs-toggle="modal"
+              data-bs-target="#myModal" href="#">Login / Sign
+              Up</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="card mb-3">
+              <div class="row g-0 d-flex align-items-center">
+                <div class="col-lg-4 d-none d-lg-flex">
+                  <img src="./img/chelsea-fc-2.svg" alt="Trendy Pants and Shoes"
+                    class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5" />
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body py-5 px-md-5">
+
+                    <form>
+                      <!-- Email input -->
+                      <div class="form-outline mb-4">
+                        <input type="email" id="form2Example1" class="form-control" />
+                        <label class="form-label" for="form2Example1">Email address</label>
+                      </div>
+
+                      <!-- Password input -->
+                      <div class="form-outline mb-4">
+                        <input type="password" id="form2Example2" class="form-control" />
+                        <label class="form-label" for="form2Example2">Password</label>
+                      </div>
+
+                      <!-- 2 column grid layout for inline styling -->
+                      <div class="row mb-4">
+                        <div class="col d-flex justify-content-center">
+                          <!-- Checkbox -->
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                            <label class="form-check-label" for="form2Example31"> Remember me </label>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <!-- Simple link -->
+                          <a href="#!">Forgot password?</a>
+                        </div>
+                      </div>
+
+                      <!-- Submit button -->
+                      <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container-fluid bg-light">
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <h1 class="top-0 start-50" style="font-weight: lighter;">CHELSEA NEWS</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-6 ">
+        <div class="card mt-4">
+          <img src="img/neww.webp" class="card-img-top" alt="..." >
+          <div><p>Line up: CHELSEA vs BAYERN MUNICH</p></div>
+          <div class="more">
+            <span class="badge bg-primary">Xem thêm</span>
+          
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card mt-4" >
+          <img src="img/new2.jpg" class="card-img-top" alt="...">
+          <p>Kovacíc talk with Lampard</p>
+          <div class="more">
+            <span class="badge bg-primary">Xem thêm</span>
+          
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mb-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="card mt-4" >
+          <img src="img/new3.jpg" class="card-img-top" alt="...">
+          <div><p>João Félix new no.11</p></div>
+          <div class="more">
+            <span class="badge bg-primary">Xem thêm</span>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card mt-4" >
+          <img src="img/new4.jpg" class="card-img-top" alt="...">
+          <p>Mason Mount news</p>
+          <div class="more">
+            <span class="badge bg-primary">Xem thêm</span>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="card mt-4" >
+          <img src="img/new5.jpg" class="card-img-top" alt="...">
+          <p>Stamford Bridge Stadium</p>
+          <div class="more">
+            <span class="badge bg-primary">Xem thêm</span>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer class="text-white py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>About me</h5>
+          <p>Le Sy Quy - PS27683 <br>Quylsps27683@fpt.edu.vn</p>
+        
+        </div>
+        <div class="col-md-3">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Address</h5>
+          <p>123 Le Van Viet St<br>Saigon/Ho Chi Minh city</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Subscribe</h5>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label visually-hidden">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
